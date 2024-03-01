@@ -22,6 +22,10 @@ class ViewController: UIViewController {
                 
                 blurView.layer.masksToBounds = true
                 
+                cardView.layer.shadowColor = UIColor(named: "Shadow")!.cgColor
+                cardView.layer.shadowOpacity = 0.5
+                cardView.layer.shadowOffset = CGSize(width: 0, height: 10)
+                cardView.layer.shadowRadius = 20
         
     }
 
